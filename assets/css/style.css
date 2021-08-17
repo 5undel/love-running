@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    border: none;
+}
+
 body {
-    font-family: arial;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+#manu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero image */
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url('../css/image/hero-image.webp') no-repeat center center;
 }
